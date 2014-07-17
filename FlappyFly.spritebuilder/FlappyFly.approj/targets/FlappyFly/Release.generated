@@ -1,0 +1,483 @@
+{
+    "assets": [
+        {
+            "asset": "ios/Icon.png", 
+            "target": "Icon.png"
+        }, 
+        {
+            "asset": "ios7/Icon.png", 
+            "target": "Icon.png"
+        }, 
+        {
+            "asset": "ios7/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "ios/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "Splash/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "ios7/iTunesArtwork.png", 
+            "target": "iTunesArtwork.png"
+        }, 
+        {
+            "asset": "ios/iTunesArtwork.png", 
+            "target": "iTunesArtwork.png"
+        }, 
+        {
+            "asset": "levelup.wav", 
+            "target": "levelup.wav"
+        }, 
+        {
+            "asset": "ios7/Icon-Small-50.png", 
+            "target": "Icon-Small-50.png"
+        }, 
+        {
+            "asset": "ios/Icon-Small-50.png", 
+            "target": "Icon-Small-50.png"
+        }, 
+        {
+            "asset": "ios/iTunesArtwork@2x.png", 
+            "target": "iTunesArtwork@2x.png"
+        }, 
+        {
+            "asset": "ios7/iTunesArtwork@2x.png", 
+            "target": "iTunesArtwork@2x.png"
+        }, 
+        {
+            "asset": "ios7/Icon-Small.png", 
+            "target": "Icon-Small.png"
+        }, 
+        {
+            "asset": "ios/Icon-Small.png", 
+            "target": "Icon-Small.png"
+        }, 
+        {
+            "asset": "Splash/Default-Portrait@2x.png", 
+            "target": "Default-Portrait@2x.png"
+        }, 
+        {
+            "asset": "ios/Icon@2x.png", 
+            "target": "Icon@2x.png"
+        }, 
+        {
+            "asset": "ios7/Icon@2x.png", 
+            "target": "Icon@2x.png"
+        }, 
+        {
+            "asset": "ios/Icon-Small-50@2x.png", 
+            "target": "Icon-Small-50@2x.png"
+        }, 
+        {
+            "asset": "ios7/Icon-Small-50@2x.png", 
+            "target": "Icon-Small-50@2x.png"
+        }, 
+        {
+            "asset": "ios/Icon-72@2x.png", 
+            "target": "Icon-72@2x.png"
+        }, 
+        {
+            "asset": "ios7/Icon-72@2x.png", 
+            "target": "Icon-72@2x.png"
+        }, 
+        {
+            "asset": "Splash/Default-Portrait.png", 
+            "target": "Default-Portrait.png"
+        }, 
+        {
+            "asset": "Splash/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "jazz.mp3", 
+            "target": "jazz.mp3"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS", 
+            "target": "Published-iOS"
+        }, 
+        {
+            "asset": "Source/Resources/zap.wav", 
+            "target": "zap.wav"
+        }, 
+        {
+            "asset": "ios7/Icon-60.png", 
+            "target": "Icon-60.png"
+        }, 
+        {
+            "asset": "Splash/Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "ios7/Icon-76.png", 
+            "target": "Icon-76.png"
+        }, 
+        {
+            "asset": "ios7/Icon-76@2x.png", 
+            "target": "Icon-76@2x.png"
+        }, 
+        {
+            "asset": "ios7/Icon-40@2x.png", 
+            "target": "Icon-40@2x.png"
+        }, 
+        {
+            "asset": "ios7/Icon-40.png", 
+            "target": "Icon-40.png"
+        }, 
+        {
+            "asset": "ios7/Icon-Small@2x.png", 
+            "target": "Icon-Small@2x.png"
+        }, 
+        {
+            "asset": "ios/Icon-Small@2x.png", 
+            "target": "Icon-Small@2x.png"
+        }, 
+        {
+            "asset": "ios7/Icon-60@2x.png", 
+            "target": "Icon-60@2x.png"
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "Final Flight", 
+        "APPLICATION_IDENTIFIER": "com.luke.FlappyFly", 
+        "APPLICATION_NAME": "FinalFlight", 
+        "LONG_VERSION": "1.2", 
+        "SHORT_VERSION": "1.2", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "Final Flight", 
+            "PRODUCT_NAME": "Final Flight"
+        }
+    }, 
+    "defines": {
+        "NDEBUG": 1, 
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 70000
+    }, 
+    "deps": [
+        "UIKit", 
+        "CoreData", 
+        "AdSupport", 
+        "Social", 
+        "Accounts", 
+        "Twitter", 
+        "GameKit", 
+        "iAd"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "Final Flight-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "Final Flight-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Final Flight-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Final Flight-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "Source/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "GAI.h": {
+                    "key": "GAI.h", 
+                    "prefix": "Analyse/", 
+                    "suffix": "GAI.h"
+                }, 
+                "GAIDictionaryBuilder.h": {
+                    "key": "GAIDictionaryBuilder.h", 
+                    "prefix": "Analyse/", 
+                    "suffix": "GAIDictionaryBuilder.h"
+                }, 
+                "GAIFields.h": {
+                    "key": "GAIFields.h", 
+                    "prefix": "Analyse/", 
+                    "suffix": "GAIFields.h"
+                }, 
+                "GAILogger.h": {
+                    "key": "GAILogger.h", 
+                    "prefix": "Analyse/", 
+                    "suffix": "GAILogger.h"
+                }, 
+                "GAITrackedViewController.h": {
+                    "key": "GAITrackedViewController.h", 
+                    "prefix": "Analyse/", 
+                    "suffix": "GAITrackedViewController.h"
+                }, 
+                "GAITracker.h": {
+                    "key": "GAITracker.h", 
+                    "prefix": "Analyse/", 
+                    "suffix": "GAITracker.h"
+                }, 
+                "Game.h": {
+                    "key": "Game.h", 
+                    "prefix": "Source/", 
+                    "suffix": "Game.h"
+                }, 
+                "GameCenterManager.h": {
+                    "key": "GameCenterManager.h", 
+                    "prefix": "GC Manager/", 
+                    "suffix": "GameCenterManager.h"
+                }, 
+                "Goal.h": {
+                    "key": "Goal.h", 
+                    "prefix": "Source/", 
+                    "suffix": "Goal.h"
+                }, 
+                "Menu.h": {
+                    "key": "Menu.h", 
+                    "prefix": "Source/", 
+                    "suffix": "Menu.h"
+                }, 
+                "NSDataAES256.h": {
+                    "key": "NSDataAES256.h", 
+                    "prefix": "GC Manager/", 
+                    "suffix": "NSDataAES256.h"
+                }, 
+                "Obstacle.h": {
+                    "key": "Obstacle.h", 
+                    "prefix": "Source/", 
+                    "suffix": "Obstacle.h"
+                }, 
+                "Prefix.pch": {
+                    "key": "Prefix.pch", 
+                    "prefix": "Source/", 
+                    "suffix": "Prefix.pch"
+                }, 
+                "Reachability.h": {
+                    "key": "Reachability.h", 
+                    "prefix": "GC Manager/", 
+                    "suffix": "Reachability.h"
+                }, 
+                "SKTAudio.h": {
+                    "key": "SKTAudio.h", 
+                    "prefix": "Source/Resources/", 
+                    "suffix": "SKTAudio.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/kazmath/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/kazmath/include/kazmath", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/kazmath/include/kazmath/GL", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Platforms", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Support", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Platforms/Mac", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/Chipmunk/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d-ui", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/Actions", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/AudioTrack", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/Session", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/Support", 
+            "type": "I"
+        }
+    ], 
+    "infoplists": [
+        "./Source/Resources/Info.plist"
+    ], 
+    "libs": [
+        "z", 
+        "sqlite3", 
+        "z", 
+        "GoogleAnalyticsServices"
+    ], 
+    "modules": [
+        {
+            "build_cwd": "Source/libs/cocos2d-iphone", 
+            "project": "cocos2d-ios", 
+            "project_config": "Release", 
+            "target": "cocos2d"
+        }, 
+        {
+            "build_cwd": "Source/libs/cocos2d-iphone", 
+            "project": "Chipmunk7-ios", 
+            "project_config": "Release", 
+            "target": "ObjectiveChipmunk-iPhone"
+        }
+    ], 
+    "pchs": [
+        "./Source/Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "GC Manager/GameCenterManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "GC Manager/NSDataAES256.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "GC Manager/Reachability.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Game.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Goal.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Menu.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Obstacle.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/Resources/SKTAudio.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/main.m"
+        }
+    ], 
+    "type": "app", 
+    "version": "1", 
+    "xcode_project": "FlappyFly.xcodeproj"
+}
